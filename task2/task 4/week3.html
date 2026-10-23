@@ -21,6 +21,49 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
             </p>
+            <p>
+                <label for="date">Date of birth</label>
+                <input type="date" id="date" name="date">
+            </p>
+            <p>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+            </p>
+            <fieldset>
+                <legend>Preferred contact method</legend>
+                <label for="contact-email">
+                    <input type="radio" id="contact-email" name="contact" value="email">
+                    Email
+                </label>
+                <label for="contact-phone">
+                    <input type="radio" id="contact-phone" name="contact" value="phone">
+                    Phone
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Interests</legend>
+                <label for="interest-coding">
+                    <input type="checkbox" id="interest-coding" name="interests" value="coding">
+                    Coding
+                </label>
+                <label for="interest-sports">
+                    <input type="checkbox" id="interest-sports" name="interests" value="sports">
+                    Sports
+                </label>
+            </fieldset>
+            <p>
+                <label for="course">Course</label>
+                <select id="course" name="course">
+                    <option value="">Select a course</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="physics">Physics</option>
+                </select>
+            </p>
+            <p>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea>
+            </p>
             <button type="submit">Submit</button>
         </form>
     </main>
