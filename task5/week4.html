@@ -40,7 +40,7 @@
             text-decoration: none; transition: color 160ms ease;
         }
         nav a:hover { color: var(--primary); }
-        .hero {
+        #hero {
             display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, 0.6fr);
             align-items: center; gap: 3rem; margin-top: 2.5rem;
             padding: clamp(2rem, 6vw, 4.5rem); overflow: hidden;
@@ -103,7 +103,7 @@
             .site-header {
                 align-items: flex-start; flex-direction: column; gap: 0.8rem;
             }
-            .hero {
+            #hero {
                 grid-template-columns: 1fr; gap: 2rem; margin-top: 1rem;
             }
             .portrait-frame {
@@ -129,7 +129,7 @@
     </header>
 
     <main id="home">
-        <section class="hero" aria-labelledby="intro-heading">
+        <section id="hero" aria-labelledby="intro-heading">
             <div class="hero-copy">
                 <p class="eyebrow">Student · Aspiring developer</p>
                 <h1 id="intro-heading">Hello, I'm <span>Raunak.</span></h1>
