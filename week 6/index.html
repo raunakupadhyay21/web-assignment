@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task 6.1 - CSS Box Model</title>
+
+    <style>
+        /* CSS Variables */
+        :root {
+            --primary-color: #2563eb;
+            --background-color: #f3f4f6;
+            --card-color: white;
+            --text-color: #333333;
+
+            --spacing: 20px;
+        }
+
+        /* Box Sizing */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            margin: 0;
+            padding: var(--spacing);
+        }
+
+        /* Profile Card */
+        .profile-card {
+            width: 320px;
+            max-width: 100%;
+
+            padding: 20px;
+
+            border: 5px solid var(--primary-color);
+
+            margin: 50px auto;
+
+            background-color: var(--card-color);
+
+            text-align: center;
+        }
+
+        /* Profile Photo */
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+
+            border-radius: 50%;
+
+            border: 3px solid var(--primary-color);
+
+            object-fit: cover;
+        }
+
+        h2 {
+            color: var(--text-color);
+        }
+
+        p {
+            color: var(--text-color);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="profile-card">
+
+        <img src="https://placehold.co/120x120" alt="Profile Photo" class="profile-photo">
+
+        <h2>Raunak upadhyay</h2>
+
+        <p>B.Tech CSE Student</p>
+
+        <p>
+            I am learning HTML and CSS.
+            I want to become a software developer.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
