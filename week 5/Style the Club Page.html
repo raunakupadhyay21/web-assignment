@@ -172,3 +172,61 @@
     </main>
     </body>
 </head>
+<style>
+    /* Define variables */
+    :root {
+        --primary-color: #2563eb;
+        --secondary-color: #f3f4f6;
+        --text-color: #333333;
+        --white-color: #ffffff;
+
+        --small-spacing: 10px;
+        --medium-spacing: 20px;
+        --large-spacing: 30px;
+    }
+
+    body {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        margin: 0;
+        padding: var(--medium-spacing);
+    }
+
+    header {
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        padding: var(--large-spacing);
+        text-align: center;
+    }
+
+    .box {
+        background-color: var(--white-color);
+        padding: var(--medium-spacing);
+        margin-top: var(--small-spacing);
+    }
+
+    button {
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        padding: var(--small-spacing);
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <div class="box">
+        <h2>Welcome</h2>
+        <p>Learning CSS Variables</p>
+        <button>Click Me</button>
+    </div>
+
+</body>
+
+</html>
